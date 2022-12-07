@@ -1,7 +1,8 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
+    componenteFormativo: 'Procesos ETL (extracción, transformación y carga)',
+    descripcionCurso:
+      'Los procesos de extracción, transformación y carga se utilizan en los proyectos de ciencias de datos para extraer información de diversas fuentes, transformarla para adaptarla a los requerimientos del proyecto en desarrollo y cargarla en un espacio compartido, donde los stakeholders de la organización puedan emplearla útilmente. Esto posibilita un mejor aprovechamiento de los datos disponibles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -12,6 +13,10 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
     ],
   },
@@ -32,31 +37,85 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: '¿Qué es ETL?',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Extracción de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Análisis de necesidades de información',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Técnicas de extracción de datos',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Minería de datos: conceptos y herramientas',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Transformación de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Técnicas de limpieza y transformación de datos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Herramientas para transformación y limpieza de datos',
+            hash: 't_3_2',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: ' Carga de datos',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.1',
+            titulo: '<i>Data warehouse</i>: conceptos y herramientas',
+            hash: 't_4_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.2',
+            titulo:
+              'Tecnologías de almacenamiento <i>(OLAP, ROLAP, MOLAP, HOLAP)</i>',
+            hash: 't_4_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '4.3',
+            titulo: 'Mantenimiento del <i>data warehouse</i>',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -101,32 +160,167 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Herramientas de extracción de datos',
+      referencia: 'Digital Methods Initiative. (2020). <em>DMI Tools</em>.',
+      tipo: 'Sitio web',
+      link: 'https://wiki.digitalmethods.net/Dmi/ToolDatabase ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'ABC del OLAP',
+      referencia: 'Evaluando Software. (2022). <em>ABC del OLAP</em>.',
+      tipo: 'Sitio web',
+      link: 'https://www.evaluandosoftware.com/abc-del-olap/ ',
+    },
+    {
+      tema: 'Ciencia de datos',
+      referencia:
+        'García, J., Molina, J. M., Berlanga, A., Patricio, M. A., Bustamante, A. L. y Padilla, W. R. (2018). <em>Ciencia de datos: técnicas analíticas y aprendizaje estadístico en un enfoque práctico.</em> Altaria.',
+      tipo: 'Libro',
+      link:
+        'https://www.amazon.com/-/es/Jes%C3%BAs-Garc%C3%ADa-Herrero/dp/8494731963 ',
+    },
+    {
+      tema: 'CRISP-DM',
+      referencia:
+        'IBM. (2021).<em> Conceptos básicos de ayuda de CRISP-DM</em>.',
+      tipo: 'Sitio web',
+      link:
+        'https://www.ibm.com/docs/es/spss-modeler/saas?topic=dm-crisp-help-overview',
+    },
+    {
+      tema: 'Ciencia de datos',
+      referencia:
+        'Jones, H. (2019). <em>Ciencia de los datos: La guía definitiva sobre análisis de datos, minería de datos, almacenamiento de datos, visualización de datos, big data para empresas y aprendizaje automático para principiantes</em>.',
+      tipo: 'Libro',
+      link: 'https://www.amazon.com/-/es/Herbert-Jones/dp/109080296X ',
+    },
+    {
+      tema: 'Ciencia de datos',
+      referencia:
+        'Martín, I. y Fernández, A. (2020).<em> Ciencia de datos para la ciberseguridad.</em> Edición Ra-Ma.',
+      tipo: 'Libro',
+      link: 'https://bit.ly/3U2jvqQ ',
+    },
+    {
+      tema: 'Procesos ETL',
+      referencia:
+        'Microsoft. (s. f.).<em> Extracción, transformación y carga de datos (ETL)</em>.',
+      tipo: 'Sitio web',
+      link:
+        'https://learn.microsoft.com/es-es/azure/architecture/data-guide/relational-data/etl ',
+    },
+    {
+      tema: 'Bases de datos',
+      referencia:
+        'Orbegozo, B. (2013).<em> Gestión de bases de datos con SQL, MySQL y Access: curso práctico.</em> Alfaomega; Altaria.',
+      tipo: 'Libro',
+      link: 'https://bit.ly/3gsxAjD ',
+    },
+    {
+      tema: 'Gestión de las TSI',
+      referencia:
+        'Piattini, M. y Ruiz, F. (2020). <em> Gobierno y Gestión de las Tecnologías y los Sistemas de Información.</em> Ra-Ma.',
+      tipo: 'Libro',
+      link:
+        'https://www.ra-ma.es/libro/gobierno-y-gestion-de-las-tecnologias-y-los-sistemas-de-informacion_104970/ ',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'CRISP-DM',
+      significado:
+        'la<em> Cross Industry Standard Process for Data Mining </em> es una metodología estandarizada para la implementación de proyectos de ciencias de datos y minería de datos.',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: '<em>Data lake</em>',
+      significado:
+        '“es un repositorio centralizado que le permite almacenar todos sus datos estructurados y no estructurados a cualquier escala. Puede almacenar sus datos sin modificarlos y sin tener que estructurarlos primero” (AWS, s. f., párr. 1).',
+    },
+    {
+      termino: '<em>Data warehouse</em>',
+      significado:
+        'también conocido como depósito de datos, es un repositorio unificado para todos los datos que recogen los diversos sistemas de una organización.',
+    },
+    {
+      termino: 'ETL',
+      significado:
+        '<em>extract, transform and load</em> (extraer, transformar y cargar).',
+    },
+    {
+      termino: 'Inteligencia de negocios',
+      significado:
+        'la <em>business intelligence </em>(BI) “combina análisis de negocios, minería, visualización, herramientas e infraestructura de datos, además de prácticas recomendadas para ayudar a las empresas a tomar decisiones basadas en los datos” (Tableau, s. f., párr. 1).',
+    },
+    {
+      termino: 'JSON',
+      significado:
+        '“es un formato de archivo estándar abierto y un formato de intercambio de datos que utiliza texto legible para almacenar y transmitir objetos de datos que constan de pares atributo-valor y tipos de datos de matriz” (Ministerio de Ambiente y Desarrollo Sostenible, s. f., definición).',
+    },
+    {
+      termino: '<em>Metadata</em>',
+      significado:
+        'son los datos que proporcionan información sobre uno o más aspectos de los mismos. Se utilizan para resumir información básica de estos, que puede facilitar el seguimiento y el trabajo con datos específicos.',
+    },
+    {
+      termino: 'OCR',
+      significado:
+        'en español, reconocimiento óptico de caracteres, es una tecnología que reconoce el texto dentro de una imagen digital. Se utiliza habitualmente para reconocer texto en documentos e imágenes escaneadas.',
+    },
+    {
+      termino: 'OLAP',
+      significado:
+        'en español, procesamiento analítico en línea. Es una solución empleada en el campo de la inteligencia de negocios, cuyo objetivo es agilizar la consulta de grandes cantidades de datos (Muñoz, 2018).',
+    },
+    {
+      termino: '<em>Scraping</em>',
+      significado:
+        'se refiere al proceso de extracción de contenidos y datos de sitios web mediante software o algoritmos.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: 'AWS. (s. f.). <em>¿Qué es un lago de datos?.</em> ',
+      link: 'https://go.aws/3AH2U4X ',
+    },
+    {
+      referencia:
+        'DataScientest. (2022). <em>Data Warehouse: ¿qué es y cómo utilizarlo?. </em>',
+      link: 'https://bit.ly/3XwFXLo ',
+    },
+    {
+      referencia: 'Hitachi. (2016). <em>Pentaho Data Integration.</em>',
+      link: 'https://htchivantara.is/3AGs8jX ',
+    },
+    {
+      referencia:
+        'Joyanes, L. (2019).<em> Inteligencia de negocios y analítica de datos. Una visión global de business intelligence & analytics</em>. Alfaomega.',
+    },
+    {
+      referencia:
+        'Microsoft. (2022). <em>SQL Server Integration Services.</em> ',
+      link: 'https://bit.ly/3EWjD6K ',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente y Desarrollo Sostenible. (s. f.). <em>JavaScript Object Notation (JSON).</em> ',
+      link: 'https://bit.ly/3EUhs2D ',
+    },
+    {
+      referencia:
+        'Muñoz, A. (2018). <em> OLAP. Resumen final.</em> Centro de Producción de Contenidos Digitales.',
+      link: 'https://repositorio.upct.es/handle/10317/7168 ',
+    },
+    {
+      referencia:
+        'Rebollo, M. (2017).<em> Minería de datos. Usando la tecnología a nuestro favor.</em> ',
+      link:
+        'https://www.gestiopolis.com/mineria-datos-usando-la-tecnologia-favor/ ',
+    },
+    {
+      referencia:
+        'Tableau. (s. f.).<em> ¿Qué es la inteligencia de negocios? Guía sobre la inteligencia de negocios y por qué es importante.</em> ',
+      link:
+        'https://www.tableau.com/es-es/learn/articles/business-intelligence ',
     },
   ],
   creditos: {
@@ -153,25 +347,25 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Innovative Education',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Innovative Education',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Innovative Education',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Innovative Education',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

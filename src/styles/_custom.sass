@@ -1,15 +1,23 @@
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
+    position: relative
+    top: 12%
+    right: 58%
+    width: 170px
+    z-index: 0
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+    position: relative
+    top: 4%
+    left: 65%
+    width: 120px
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: relative
+    top: 44%
+    right: 10%
+    width: 170px
 
 @keyframes float1
   0%
@@ -17,3 +25,480 @@
 
   100%
     transform: translateY(0px)
+
+///colores
+.color-fondo
+  background-color: rgba(19,138,248,0.13)!important
+
+.color-fondo-secundario
+  background-color: rgba(254,202,46,0.15)!important
+
+.color-fondo-terciario
+  background-color: #e1634d !important
+.color-fondo-4
+  background-color: rgba(77,208,225,0.15)!important
+.color-puntoC
+  background-color: #E4F8FB !important
+
+.color-fondo2
+  background-color: $color-secundario
+
+.color-acentoc-fondo
+  background-color: $color-acento-contenido
+
+.color-acentob-fondo
+  background-color: $color-acento-botones
+  
+////tarjetas horizontales 
+  
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 12rem
+  & > *
+    position: relative
+  h5 
+    color: #12263F
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #EAF086 !important
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+
+
+.crd
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2rem
+    width: 425px
+    height: 100%
+    background-color: $color-acento-contenido
+    h4, p
+        color: white 
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background: linear-gradient(180deg, #DCE736 0%, #DCE736 100%)
+      h4, p
+        color: black 
+      .bottomCircle
+        &::before
+          background-color: #feaf81
+  &.crd--blue
+    background-color: #B1DBEA
+
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+
+.bottomCircle
+  top: 22%
+  left: 50%
+  transform: translate(-50%,-50%)
+  width: 125px
+  height: 125px
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 115px
+    height: 115px
+    background-color: #116EB9
+    border-radius: 999px
+
+.crd--first, .crd--last
+  &::before 
+    background-color: #ACD382 !important
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+
+
+
+.tarjeta-flip__contenido
+ background-color: $color-acento-contenido !important
+
+.img-infografica__item__numero
+  color: white !important
+  
+.banner-principal__componente h1
+  color: white !important
+
+.banner-principal p
+  color: white !important
+
+.me-1
+  color: black !important
+
+.me-2
+  color: black !important
+
+.fa-angle-right
+  color: black !important
+
+.fas.fa-angle-right.txt--black
+  color: black !important
+.fa-puzzle-piece
+  color: black !important
+
+.d-md-block
+  color: black !important
+
+.fa-square
+  color: $color-acento-contenido !important
+
+.fcab15
+  background-color: #FAFCE1 !important
+.fcs15, .tarjeta.color-secundario.acordion__activo
+  background-color: #FFF7E0 !important
+.mb-0, .fa-minus, .fa-plus, .i
+  color: black !important
+.acordion
+  .tarjeta.color-secundario
+    background-color: #BDDCF6
+  
+.acordion__accion__btn, .acordion__accion__btn--a
+  background-color: $color-acento-botones !important
+
+.slider
+ background-color: rgba(220,231,54,0.25)!important
+
+.tabs-c__tab--active
+  font-weight: bold !important
+
+.tabs-a__tab
+  background-color: #E8E8E8
+  width: 170px
+  
+ 
+
+.margenes2
+ display: inline-block
+ width: 500px
+ height: 500px
+ padding: 5px
+ border: 1px solid blue
+
+ ///formas
+
+.circulo
+  height: 150px
+  width: 150px
+  background-color: $color-acento-contenido
+  border-radius: 50%
+  margin: auto
+  margin-top: 230px
+  font-size: 40px
+
+///banner interno
+.banner-interno__fondo
+ background-image: url('../assets/curso/portada/banner-interno.png') !important
+
+//tarjetasAvatar
+.w150px
+  width: 150px !important
+
+.cuadrado
+  color: #3D46C2
+
+.bxsh1
+  box-shadow: 5px 13px 15px rgba(0,0,0,0.1)
+
+// pantallas pequeñas
+@media screen and ( max-width: 576px )
+  .mw-sm-350px
+    max-width: 350px
+    margin: 0 auto 1rem
+  
+  img
+    margin-bottom: 1.5rem
+    margin-top: 1.5rem
+
+
+///tarjetas hover
+
+.crd_hover_txt
+  position: relative
+  padding: 0!important
+  overflow: hidden!important
+  background-color: #F8FAD6
+  width: 350px !important
+  height: 300px !important
+  &:hover
+    .crd_hover_txt--body
+      transform: translateY(0)
+      background-color: #dce736
+  &--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0
+    transition: all .5s ease-in-out
+    transform: translateY(calc(100% - 3.85rem))
+    text-align: center !important;
+    background-color: #dce736
+    z-index: 2
+  &--img
+    position: relative
+    z-index: 1
+    top: -1%
+    left: 0%
+    width: 350px !important
+    height: 300px !important
+
+.bloque-texto-h
+  position: relative
+  display: flex
+  justify-content: flex-end
+  &__img
+    width: 50%
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    background-position: center
+    background-size: cover
+  &__texto
+    position: relative
+    width: 60%
+    right: 40%
+    background-color: rgba( $white, .95 )
+    *
+      display: inline
+
+  @media (max-width: $bp-max-md)
+    padding-top: 40% !important
+    &__img
+      width: 100%
+      height: 50%
+    &__texto
+      width: 100%
+      left: 0%
+
+  @media (max-width: $bp-max-xs)
+    padding-top: 200px !important
+    &__img
+      height: 250px
+    &__texto
+      width: 100%
+      left: 0%
+
+  &.color-primario
+    background-color: $color-primario
+  &.color-secundario
+    background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: $color-acento-botones
+
+///carrusel
+.carrusel2
+  background-color: rgba(220,231,54,0.50)!important
+  height: 280px !important
+  margin-top: 60px
+
+/// slyder-A
+  
+.slyder-a
+  position: relative
+  &__btn
+    &--sigt, &--atrs
+      width: 50px
+      height: 50px
+      background-color: #F4F4F5 !important
+      border-radius: 50%
+      background-image: url('../assets/componentes/arrow.svg')
+      background-repeat: no-repeat
+      background-size: 16px 24px
+      background-position: center
+      border: 1px solid $color-sistema-e
+      top: 50%
+      z-index: 10000
+      opacity: 0.7
+      box-shadow: 0 0 0px 0px rgba(0,0,0,0.3)
+      transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+      cursor: pointer
+      &:hover
+        opacity: 1
+        box-shadow: 0 0 5px 0px #75db164d
+        border-color: $white
+
+  &__bullets
+    display: flex
+    z-index: 10000
+    &__item
+      width: 15px
+      height: 15px
+      background-color: $color-secundario
+      border-radius: 50%
+      box-shadow: 0 0 5px 0px rgba(0,0,0,0)
+      margin: 0 10px
+      cursor: pointer
+      opacity: 0.7
+      transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+      border: 1px solid $color-sistema-e
+
+      &--active
+        background-color: $color-acento-contenido
+        border-color: $color-sistema-b
+        opacity: 1
+
+      &:hover
+        opacity: 1
+        box-shadow: 0 0 5px 0px rgba(0,0,0,0.3)
+        border-color: $color-sistema-b
+  
+
+  &__tipo-a
+    position: absolute
+    inset: 0
+    .slyder-a
+      &__btn
+        &--sigt, &--atrs
+          position: absolute
+        &--sigt
+          transform: translateY(-50%) rotate(-90deg)
+          right: 15px
+          .indicador__container
+            transform: translateY(15px) rotate(90deg)
+
+        &--atrs
+          transform: translateY(-50%) rotate(90deg)
+          left: 15px
+
+      &__bullets
+        position: absolute
+        bottom: 50px
+        left: 50%
+        transform: translateX(-50%)
+
+  &__tipo-b
+    position: relative
+    display: flex
+    justify-content: space-between
+    align-items: center
+    .slyder-a
+      &__btn
+        &--sigt
+          transform: rotate(-90deg)
+          right: 15px
+          .indicador__container
+            transform: rotate(90deg)
+
+        &--atrs
+          transform: rotate(90deg)
+          left: 15px
+
+      &__bullets
+        position: relative
+
+    .hide
+      opacity: 0
+      pointer-events: none    
+
+.slyder-a__bullets__item
+  background-color: #707070 !important 
+
+.slyder-a__bullets__item--active
+  background-color: #0F2771 !important 
+
+.tarjeta--secundario
+  background-color: rgba(189,220,246,0.20)!important
+.slyder-f
+  @media (max-width: $bp-max-xs)
+    transform: translate(-10px, 0px) !important
+  .slyder-f__main
+     @media (max-width: $bp-max-xs)
+      transform: translate(5px, 0px) !important
+.slyder-g
+  align-items: center
+  justify-content: center
+  .slyder-f__btn
+    display: none !important
+  .slyder-f__main
+    align-items: left !important
+  @media (max-width: $bp-max-md)
+    transform: translate(-20px, 0px)
+    .slyder-f__btn
+      display: inline !important
+    
+.slyderPeque
+   @media (max-width: $bp-max-md)
+    transform: translate(-1px, 0px) !important
+
+.bloque-texto-f2
+ 
+  &__autor
+    text-align: center
+    position: relative
+
+  &__avatar
+    position: relative
+    height: 10px
+    &__img
+      position: relative
+      top: -15px
+      left: 50%
+      transform: translateX(-50%)
+      width: 100px
+      border-radius: 50%
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3)
+
+.img-infografica__card--selected
+  @media (max-width: $bp-max-xs)
+    transform: translate(-70px, 0px) !important
+
+.img-infografica__card2--selected
+  transform: translate(70%, 1000px) !important
+.img-infografica__card3--selected
+  @media (max-width: $bp-max-xs)
+    transform: translate(-70px, 0px) !important
+
+///tabla
+.tableT
+  border-style: solid
+  border-width: medium medium medium medium
+  border-color: #ACD382
+  th, td 
+    border: 1px solid black
+  thead
+    border: 2px solid #ACD382
+   
+///linea de tiempo
+.linea-tiempo-d
+  &__item
+    &--selected
+      .linea-tiempo-d
+        &__item
+          &__content
+            background-color: rgba(77,208,225,0.13)!important
+            &__title
+              font-weight: $base-bold-font-weight
+          &__number
+            font-weight: $base-bold-font-weight
+            background-color: rgba(77,208,225,0.13)!important
+   
+
+.barra-avance__boton--regresar
+  color: #dbe60e  !important
+
+.banner-principal__descripcion
+  color: white  !important
+ 
