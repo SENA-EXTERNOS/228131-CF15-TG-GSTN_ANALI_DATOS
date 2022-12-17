@@ -227,19 +227,19 @@
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-7.mb-4.mb-md-0
-            h5 <i>scraping</i> o <i>web scraping</i>
-            p También llamada extracción de datos de la web, consiste en desarrollar algoritmos o usar herramientas para recuperar documentos e información de una página web. El <i>scraping</i> hace uso del lenguaje de marcado (etiquetas <i>HTML</i>), con el cual están construidos los sitios <i>web</i> y expresiones regulares, para extraer de estos sitios solo la información requerida. Algunas de estas herramientas son: <i>Octoparse, Cyotek WebCopy y Scraper</i> (esta última funciona como una extensión del navegador Google Chrome).
+            h5 <i>Scraping</i> o <i>web scraping</i>
+            p También llamada <i>extracción de datos de la web</i>, consiste en desarrollar algoritmos o usar herramientas para recuperar documentos e información de una página web. El <i>scraping</i> hace uso del lenguaje de marcado (etiquetas <i>HTML</i>), con el cual están construidos los sitios <i>web</i> y expresiones regulares, para extraer de estos sitios solo la información requerida. Algunas de estas herramientas son: <i>Octoparse, Cyotek WebCopy y Scraper</i> (esta última funciona como una extensión del navegador Google Chrome).
 
           .col-md-5
             figure
               img(src='@/assets/curso/temas/tarjetas/placeholder10.svg', alt='imagen ilustrativa')
 
     .row.justify-content-center.mb-5
-      .col-md-3
-        figure.mw-sm-350px
+      .col-md-2
+        figure(style="margin-top: 15%")
           img(src='@/assets/curso/temas/texto_destacado/img13.png', alt='imagen relacionada')
-      .col-md-7      
-        p.mb-4 En el sitio web <strong style="color: blue ">digitalmethods.net </strong>el aprendiz encontrará varias herramientas de <i>scraping</i>, análisis y recolección de datos, que podrá usar para recopilar información de diferentes fuentes digitales en Internet, como buscadores, redes sociales y repositorios. Por ejemplo, la herramienta <i>YouTube Data Tools</i> sirve para extraer información desde YouTube, usando la API de la plataforma. Entre los datos que se pueden tomar, se encuentra la información de un canal de videos específico o los comentarios de los videos de este canal. Este tipo de información puede ser muy útil al momento de realizar un estudio del grado de aceptación de una marca o empresa.
+      .col-md-8      
+        p.mb-4 En el sitio web <strong style="color: blue ">https://tools.digitalmethods.net/</strong>el aprendiz encontrará varias herramientas de <i>scraping</i>, análisis y recolección de datos, que podrá usar para recopilar información de diferentes fuentes digitales en Internet, como buscadores, redes sociales y repositorios. Por ejemplo, la herramienta <i>YouTube Data Tools</i> sirve para extraer información desde YouTube, usando la API de la plataforma. Entre los datos que se pueden tomar, se encuentra la información de un canal de videos específico o los comentarios de los videos de este canal. Este tipo de información puede ser muy útil al momento de realizar un estudio del grado de aceptación de una marca o empresa.
         a.anexo.mb-4.mb-lg-0(href="https://tools.digitalmethods.net/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
@@ -303,7 +303,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-2
-        figure.mw-sm-350px
+        figure(style="margin-top: 75%")
           img(src='@/assets/curso/temas/texto_destacado/img19.png', alt='imagen relacionada')
       .col-md-10
         p.mb-4 Si desea conocer más herramientas tanto de <i>software</i> propietario (pagas) como de código abierto, que se pueden emplear para los procesos de minería de datos, visite los siguientes enlaces:

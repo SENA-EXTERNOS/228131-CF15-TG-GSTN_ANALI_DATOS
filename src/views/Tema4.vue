@@ -21,7 +21,7 @@
       .col-md-7      
         .cajon.color-acento-botones.color-fondo-secundario.p-4.mb-4
           p.mb-0 Un <i>data warehouse</i>, o depósito de datos, es una plataforma utilizada para almacenar y procesar datos que provienen de diversas fuentes y formatos y que ocupa un lugar central en un sistema de inteligencia de negocios (DataScientest, 2022). Allí es donde se cargan los datos recolectados mediante las técnicas de extracción, después de que se transforman, para que tengan el formato y la calidad adecuados para su explotación en los procesos de ciencia de datos. Por lo general, estos depósitos de información se encuentran separados de las bases de datos de producción de la organización para no alterar la información original ni sobrecargar el sistema de información de producción.
-        p.mb-0 Sumado a lo anterior, los depósitos de datos funcionan como repositorio central, y su información proviene de una o varias fuentes de datos, como son los sistemas de información de la organización, los sistemas transaccionales y las bases de datos relacionales. Al tener la información centralizada en un solo lugar, la organización logra una visión holística de sus sistemas y procesos claves para un mejor entendimiento y un proceso de toma de decisiones soportado en los datos. Además, los data warehouse están orientados al análisis de información histórica; por tanto, dependiendo de la antigüedad y tamaño de la organización, esta debe disponer de una gran capacidad de almacenamiento (en algunas organizaciones ya se trabaja en cantidades de petabytes), ya que muchos de los datos permanecen por largos periodos de tiempo. Por tal razón, cada vez es más frecuente el uso de soluciones en la nube para este proceso y evitar así que la organización deba realizar grandes inversiones en equipos e infraestructura para desarrollar sus procesos. Con el uso de la computación en la nube o infraestructura como servicio, las organizaciones solo pagan por los servicios usados y bajo demanda.
+        p.mb-0 Sumado a lo anterior, los depósitos de datos funcionan como repositorio central, y su información proviene de una o varias fuentes de datos, como son los sistemas de información de la organización, los sistemas transaccionales y las bases de datos relacionales. Al tener la información centralizada en un solo lugar, la organización logra una visión holística de sus sistemas y procesos claves para un mejor entendimiento y un proceso de toma de decisiones soportado en los datos. Además, los <i>data warehouse</i> están orientados al análisis de información histórica; por tanto, dependiendo de la antigüedad y tamaño de la organización, esta debe disponer de una gran capacidad de almacenamiento (en algunas organizaciones ya se trabaja en cantidades de petabytes), ya que muchos de los datos permanecen por largos periodos de tiempo. Por tal razón, cada vez es más frecuente el uso de soluciones en la nube para este proceso y evitar así que la organización deba realizar grandes inversiones en equipos e infraestructura para desarrollar sus procesos. Con el uso de la computación en la nube o infraestructura como servicio, las organizaciones solo pagan por los servicios usados y bajo demanda.
       .col-md-5
         figure.mw-sm-350px
           img(style="height: 600px" src='@/assets/curso/temas/texto_destacado/img26.png', alt='imagen relacionada') 
@@ -63,8 +63,8 @@
         figure.mw-sm-350px
           img(src='@/assets/curso/temas/texto_destacado/img28.png', alt='imagen relacionada')
       .col-md-10
-        p.mb-4 Existen otro tipo de depósitos de datos conocidos como data lakes o lago de datos. Estos son repositorios de información que se encuentran almacenados en su forma nativa, es decir, sin procesar (estructurados, semiestructurados o no estructurados). Estos almacenan no solo la información que se utiliza en el momento, sino también los datos históricos.
-        p.mb-0 La siguiente infografía presenta las principales diferencias entre los data lakes y los data warehouse:
+        p.mb-4 Existen otro tipo de depósitos de datos conocidos como <i>data lakes</i> o lago de datos. Estos son repositorios de información que se encuentran almacenados en su forma nativa, es decir, sin procesar (estructurados, semiestructurados o no estructurados). Estos almacenan no solo la información que se utiliza en el momento, sino también los datos históricos.
+        p.mb-0 La siguiente infografía presenta las principales diferencias entre los <i>data lakes</i> y los <i>data warehouse:</i>
 
     .mx-auto.col-md-10.mb-4
       .tarjeta
@@ -167,7 +167,7 @@
       .py-4.py-md-5(titulo="ROLAP" :icono="require('@/assets/curso/temas/pestañas/pestaña_icono_02.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
-            p Los datos son introducidos directamente desde el data warehouse u otra fuente de datos relacional y no son almacenados por separado. La base de datos relacional maneja los requerimientos de DW, y el motor de ROLAP proporciona la función analítica.
+            p Los datos son introducidos directamente desde el <i>data warehouse</i> u otra fuente de datos relacional y no son almacenados por separado. La base de datos relacional maneja los requerimientos de DW, y el motor de ROLAP proporciona la función analítica.
           .col-md-6.mb-4.mb-md-0
             img(src="@/assets/curso/temas/texto_destacado/img32.png", alt="imagen ilistrativa")
 
@@ -207,12 +207,12 @@
           .tarjeta.color-acento-contenido-borde.p-4(titulo="Depuración")
             .row
               .col-md-12.p-4.color-fondo
-                p Consiste en la detección, prueba y reparación de errores. Muchas de las fallas son corregidas durante el proceso de implementación, pero algunas solo se detectan en fase de producción. Así que es necesario realizar los ajustes requeridos para que el data warehouse funcione de la forma esperada.
+                p Consiste en la detección, prueba y reparación de errores. Muchas de las fallas son corregidas durante el proceso de implementación, pero algunas solo se detectan en fase de producción. Así que es necesario realizar los ajustes requeridos para que el <i>data warehouse</i> funcione de la forma esperada.
 
           .tarjeta.color-acento-contenido-borde.p-4(titulo="Actualización")
             .row
               .col-md-12.p-4.color-fondo
-                p Las condiciones y necesidades de la organización cambian con el tiempo. Por ende, es necesario que el data warehouse, sus vistas y la información allí almacenada se adapten a estos cambios para que sean de utilidad.
+                p Las condiciones y necesidades de la organización cambian con el tiempo. Por ende, es necesario que el <i>data warehouse</i>, sus vistas y la información allí almacenada se adapten a estos cambios para que sean de utilidad.
           .tarjeta.color-acento-contenido-borde.p-4(titulo="Adición")
             .row
               .col-md-12.p-4.color-fondo
