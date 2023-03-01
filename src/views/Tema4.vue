@@ -12,10 +12,9 @@
         figure.mw-sm-350px
           img(src='@/assets/curso/temas/texto_destacado/img25.png', alt='imagen relacionada')
       .col-md-7      
-        p.mb-0 En esta última fase de los procesos <i>ETL</i>, se cargan los datos recopilados y transformados en un formato ahora consistente y homogéneo. Estos datos se almacenan en un <i>data warehouse</i> (DW) o depósito de datos. Por lo general, el DW se encuentra separado de la base de datos de producción de la organización, lo que propende así a su uso y aprovechamiento sin afectar la labor diaria del negocio. El depósito de datos funciona como un repositorio central, con información que proviene de diversas fuentes de datos y de diferentes tipos (estructurados, semiestructurados y no estructurados). Una vez se encuentran en el depósito, los usuarios pueden acceder a estos mediante herramientas de inteligencia de negocios.
+        p.mb-0 En esta última fase de los procesos #[i ETL], se cargan los datos recopilados y transformados en un formato ahora consistente y homogéneo. Estos datos se almacenan en un <i>data warehouse</i> (DW) o depósito de datos. Por lo general, el DW se encuentra separado de la base de datos de producción de la organización, lo que propende así a su uso y aprovechamiento sin afectar la labor diaria del negocio. El depósito de datos funciona como un repositorio central, con información que proviene de diversas fuentes de datos y de diferentes tipos (estructurados, semiestructurados y no estructurados). Una vez se encuentran en el depósito, los usuarios pueden acceder a estos mediante herramientas de inteligencia de negocios.
 
-    #t_4_1.titulo-segundo.color-acento-contenido.mb-5  
-      h3 4.1  <i>Data warehouse</i>: conceptos y herramientas
+    h3.mb-4 Data warehouse: conceptos y herramientas
     
     .row.justify-content-center.mb-5
       .col-md-7      
@@ -73,14 +72,17 @@
             ImagenInfografica.color-secundario.mb-5
               template(v-slot:imagen)
                 figure
-                  img(data-aos="fade-left" src='@/assets/curso/temas/figuras/figura1.svg', alt='diagrama')
+                  img(data-aos="fade-left" src='@/assets/curso/temas/figuras/figura1.svg', alt='diagrama').mb-3
+                figcaption(style='background-color: #E4F8FB') 
+                  p.p-2 #[b Nota.] tomada y adaptada de https://www.7puentes.com/blog/wp-content/uploads/2021/08/Post_42_2-630x1024.jpg
+
 
               .tarjeta.color-puntoC.p-4(x="12%" y="53%" numero="+" style='border-radius: 10px; transform: translate(40px,150px);background-color: #F0FAFC')
                 p.text-center Se almacena toda la información independientemente de la fuente y su estructura 
                 .tarjeta.color-acento-contenido.p-5(style="background-color: #E4F8FB; margin-left: -22px; width:300px; height: 210px")
                   p.text-center Funciona como un repositorio de datos estructurados, semi-estructurados y no-estructurados 
                 .tarjeta.color-acento-contenido.p-5(style="background-color: #C1EFF5; margin-left: -22px; width:300px; height: 130px")
-                  p.text-center Se define el esquema de datos después de su almacenamiento, al momento de ser usada  
+                  p.text-center Se define el esquema de datos después de su almacenamiento, al momento de ser usados  
                 .tarjeta.color-acento-contenido.p-5(style="background-color: #9FF0FA; margin-left: -22px; width:300px; height: 130px")
                   p.text-center Usa el proceso extracción - carga - transformación 
                 .tarjeta.color-acento-contenido.p-5(style="background-color: #4DD0E1; margin-left: -22px; width:300px; height: 130px")
@@ -97,12 +99,12 @@
                 .tarjeta.color-acento-contenido.p-5(style="background-color: #4DD0E1; margin-left: -22px; width:300px; height: 130px")
                   p.text-center Ideal para usuarios operacionales 
 
-    #t_4_2.titulo-segundo.color-acento-contenido.mb-5  
-      h3 4.2 Tecnologías de almacenamiento <i>(OLAP, ROLAP, MOLAP, HOLAP)</i>
+    separador
+    h3 Tecnologías de almacenamiento (OLAP, ROLAP, MOLAP, HOLAP)
     
     .row.justify-content-center.mb-5
       .col-md-7
-        p.mb-4 <i>OLAP</i> es el acrónimo en inglés de procesamiento analítico en línea <i>(OnLine Analytical Processing)</i> y su objetivo es agilizar las consultas de grandes cantidades de datos (Muñoz, 2018). Para ello, utiliza estructuras multidimensionales, también conocidos como cubos OLAP, que almacenan información de grandes bases de datos. Sus principales usos son en procesos de minería de datos, ventas, <i>marketing</i> e inteligencia de negocios. El creador del concepto OLAP fue Edgar Frank Codd,  conocido también por ser precursor de las bases de datos relacionales. Su propuesta inicial consistió en tener una disposición de los datos en vectores para permitir un análisis rápido, (Joyanes, 2019).      
+        p.mb-4 OLAP es el acrónimo en inglés de procesamiento analítico en línea (OnLine Analytical Processing) y su objetivo es agilizar las consultas de grandes cantidades de datos (Muñoz, 2018). Para ello, utiliza estructuras multidimensionales, también conocidos como cubos OLAP, que almacenan información de grandes bases de datos. Sus principales usos son, en procesos de minería de datos, ventas, #[i marketing] e inteligencia de negocios. El creador del concepto OLAP fue Edgar Frank Codd, conocido también por ser precursor de las bases de datos relacionales. Su propuesta inicial consistió en tener una disposición de los datos en vectores para permitir un análisis rápido. (Joyanes, 2019)
         .cajon.color-acento-botones.color-fondo-secundario.p-4.mb-4
           p.mb-0 Los cubos OLAP se suelen comparar con una hoja de datos ampliada. Este cubo es una base de datos que tiene varias dimensiones, que amplían las posibilidades que ofrecen en la actualidad las hojas de cálculo de solo dos dimensiones. Los OLAP pueden a su vez contener varios cubos o vectores, que también aumentan las posibilidades del sistema (estos son conocidos como hipercubos). Por lo general, los cubos OLAP se componen de tres dimensiones, pero pueden albergar más si es necesario, por el tipo de organización o por la información almacenada.
         
@@ -112,8 +114,14 @@
 
     .row.justify-content-center.mb-5.mt-4
       .col-md-7
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 4
+          p #[i Ejemplo cubo OLAP]      
         figure
-          img(data-aos="flip-left" src='@/assets/curso/temas/figuras/figura2.svg', alt='diagrama') 
+          img(data-aos="flip-left" src='@/assets/curso/temas/figuras/figura2.svg', alt='diagrama').mb-3
+        figcaption(style='background-color: #E4F8FB') 
+          p.p-2 #[b Nota.] tomado y adaptado de https://geeks.ms/lmblanco/wp-content/uploads/sites/117/2016/05/CubosDatosSQLServer2008_01.jpg
+
 
     p.mb-4 En el procesamiento analítico en línea también hay disponibles variadas herramientas. Algunas de ellas se caracterizan por
 
@@ -179,8 +187,8 @@
           .col-md-6.mb-4.mb-md-0
             img(src="@/assets/curso/temas/texto_destacado/img33.png", alt="imagen ilistrativa")
     
-    #t_4_3.titulo-segundo.color-acento-contenido.mb-5  
-      h3 4.3 Mantenimiento del <i>data warehouse</i>
+    separador
+    h3.mb-5 Mantenimiento del #[i data warehouse]
     
     .row.justify-content-center.mb-5
       .col-md-5
@@ -218,6 +226,9 @@
               .col-md-12.p-4.color-fondo
                 p En algunos casos puede ser necesario agregar nuevas funcionalidades o vistas en el <i>data warehouse</i>, sin afectar su funcionamiento.
 
+
+    .row
+      p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 

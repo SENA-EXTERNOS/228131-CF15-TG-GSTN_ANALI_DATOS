@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p.mb-5 En la siguiente figura se encuentran a manera de síntesis todos los temas vistos y aprendidos en este componente formativo, lo que servirá como guía para recordar cada contenido y así realizar de manera satisfactoria las respectivas actividades a desarrollar.
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
 
     .row.justify-content-center
       .col-lg-10.mb-5

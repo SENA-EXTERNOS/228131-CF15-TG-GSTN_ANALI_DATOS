@@ -12,7 +12,7 @@
         figure.mw-sm-350px
           img(src='@/assets/curso/temas/texto_destacado/img5.png', alt='imagen relacionada')
       .col-md-7      
-        p.mb-4 El proceso de extracción de datos consiste en recopilar desde las diversas fuentes la información requerida para la realización del proyecto de ciencias de datos. Estas fuentes son, en la mayoría de casos, muy diversas, dado que incluyen archivos físicos, como facturas, registros en papel, libros contables y respaldo, o también digitales, como hojas de cálculo, documentos de texto, bases de datos, entre otros. Los formatos y la compatibilidad entre estas fuentes de información hacen que la extracción se convierta en un reto importante para la organización.
+        p.mb-4 El proceso de extracción de datos consiste en recopilar desde las diversas fuentes, la información requerida para la realización del proyecto de ciencias de datos. Estas fuentes son, en la mayoría de casos, muy diversas, dado que incluyen archivos físicos, como facturas, registros en papel, libros contables y de respaldo, o también digitales, como hojas de cálculo, documentos de texto, bases de datos, entre otros. Los formatos y la compatibilidad entre estas fuentes de información, hacen que la extracción se convierta en un reto importante para la organización.
 
         p.mb-4 En algunos casos, al revisar los datos requeridos para el proyecto de ciencias de datos, se puede encontrar que la organización no cuenta con la información requerida para el proceso, ante lo cual es necesario definir los elementos faltantes y su posible fuente y diseñar instrumentos para su levantamiento.
 
@@ -49,7 +49,7 @@
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-7.mb-4.mb-md-0
     
-            p Definir a partir de análisis de la calidad realizado si los datos extraídos cumplen con los requerimientos esperados. Si estos no cumplen, deberán ser rechazados.
+            p Definir, a partir de análisis de la calidad realizado, si los datos extraídos, cumplen con los requerimientos esperados. Si estos no cumplen, deberán ser rechazados.
 
           .col-md-5
             figure
@@ -62,15 +62,15 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/texto_destacado/img6.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p Una acción para considerar en los procesos de extracción de datos es generar el menor impacto en el sistema de origen, dado que si se afecta el sistema original, esto mismo podría pasar con la actividad cotidiana de la organización. Para evitar este tipo de inconvenientes, se recomienda seleccionar los horarios para hacer el proceso de extracción o realizarlo en bloques o lotes, y así minimizar el impacto.
+            p Una acción para considerar en los procesos de extracción de datos es la de generar el menor impacto en el sistema de origen, dado que, si se afecta el sistema original, esto mismo podría pasar con la actividad cotidiana de la organización. Para evitar este tipo de inconvenientes, se recomienda seleccionar los horarios para hacer el proceso de extracción o realizarlo en bloques o lotes, y así minimizar el impacto.
 
-    #t_2_1.titulo-segundo.color-acento-contenido.mb-5  
-      h3 2.1 Análisis de necesidades de información
+    separador
+    h3 Análisis de necesidades de información
 
 
     .row.justify-content-center.mb-5
       .col-md-7      
-        p.mb-4 En esta fase de extracción es muy importante tener claros los requisitos y expectativas de la organización, así como los objetivos del proceso de ciencia de datos que se realizarán, con el fin de dar respuesta y definir las necesidades de información. Estas necesidades son aquellos datos que el equipo debe tener para hacer a cabalidad su trabajo, investigación, estudio o predicción. Se puede dar el caso de que la organización necesite información que sabe o no que existe o que no sabe que necesita.
+        p.mb-4 En esta fase de extracción, es muy importante tener claros los requisitos y expectativas de la organización, así como los objetivos del proceso de ciencia de datos que se realizarán, con el fin de dar respuesta y definir las necesidades de información. Estas necesidades son aquellos datos que el equipo debe tener para hacer a cabalidad su trabajo, investigación, estudio o predicción. Se puede dar el caso que la organización necesite la información que sabe o no, que existe, o que no sabe que necesita.
         p.mb-0 Un aspecto útil para identificar las necesidades y posibles fuentes de información es conocer cómo esta fluye al interior de la organización. En este sentido, la información fluye de diferentes maneras:
       .col-md-5
         figure.mw-sm-350px
@@ -108,7 +108,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-7      
-        p.mb-4 En esta fase también existen flujos externos de información con actores del entorno de la organización que deben ser identificados, si son necesarios para el proyecto. Todos estos flujos tienen que analizarse para identificar en ellos la información requerida para el proceso de ciencia de datos que se ejecutará y, por consiguiente, definirán cuál es la fuente de datos más pertinente y adecuada. En esta etapa también se analiza el tipo de información que se está generando, quién la usa, cómo y para qué y quiénes no deben tener acceso a esa información y por qué, con el fin de evitar compartir información delicada o confidencial con actores que no están autorizados.
+        p.mb-4 En esta etapa, también existen flujos externos de información con actores del entorno de la organización que deben ser identificados y saber si son necesarios para el proyecto. Todos estos flujos tienen que analizarse para identificar en ellos la información requerida para el proceso de ciencia de datos que se ejecutará y, por consiguiente, definirán cuál es la fuente de datos más pertinente y adecuada. En esta etapa también se analiza el tipo de información que se está generando, quién la usa, cómo y para qué, y quiénes no deben tener acceso a esa información y porqué, con el fin de evitar compartir información delicada o confidencial con actores que no están autorizados.
 
         p.mb-0 Para modelar el flujo de la información a través de la organización, se utilizan los diagramas de flujo, los cuales permiten representar el proceso y el orden en que se ejecutan las tareas. El organigrama, los manuales de procedimiento y las entrevistas a actores claves serán un insumo fundamental para la elaboración de estos modelos.
       .col-md-5
@@ -117,19 +117,22 @@
 
     .row.justify-content-center.mb-5
       .col-md-7
+        .titulo-sexto.color-acento-contenido.mb-4
+          h5 Figura 2
+          p #[i Diagrama de flujo]
         figure
-          img(data-aos="flip-left" src='@/assets/curso/temas/texto_destacado/img10.svg', alt='diagrama')  
+          img(data-aos="flip-left" src='@/assets/curso/temas/texto_destacado/img10.svg', alt='diagrama').mb-3
+        figcaption(style='background-color: #E4F8FB') 
+          p.p-2 #[b Nota.] tomado y adaptado de https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/activity-diagram-for-login-UML/activity-diagram-for-login-UML-650x797.png
+
 
     .row.justify-content-center.mb-4
       .col-md-10.mb-4
         .cajon.color-acento-botones.color-fondo-secundario.p-4
-          p.mb-0 Para hacer el análisis de necesidades de información, se usan dos enfoques, uno directo y otro indirecto. En el directo se utilizan técnicas para obtener de primera mano información del usuario. Algunas de estas técnicas son: entrevistas, cuestionarios, observación de hábitos de búsqueda y uso de información, técnica de incidente crítico y métodos de consenso (algunos de estos métodos utilizados son la técnica Delphi y los focus groups o grupos orientados). Por su parte, el enfoque indirecto consiste en el análisis de documentos, referencias y solicitudes de documentos, además de la observación y del registro de hechos.
+          p.mb-0 Para hacer el análisis de necesidades de información se emplean dos enfoques, uno directo y otro indirecto. En el directo, se utilizan técnicas para obtener de primera mano información del usuario. Algunas de estas técnicas son: entrevistas, cuestionarios, observación de hábitos de búsqueda y uso de información, técnica de incidente crítico y métodos de consenso (algunos de estos métodos utilizados son la técnica “Delphi” y los focus groups o grupos orientados). Por su parte, el enfoque indirecto consiste en el análisis de documentos, referencias y solicitudes de documentos, además de la observación y el registro de los hechos.
 
     p.mb-4 La siguiente infografía presenta algunas de las técnicas utilizadas en el proceso de análisis de necesidades de información:
 
-    .titulo-sexto.color-acento-contenido.mb-3
-      h5 Figura 1
-      p Técnicas para el análisis de necesidades de información
     
     .mx-auto.col-md-10.mb-4
       .tarjeta
@@ -141,19 +144,19 @@
                   img(data-aos="fade-left" src='@/assets/curso/temas/texto_destacado/img11.svg', alt='diagrama')
 
               .tarjeta.color-puntoC.p-4(x="9%" y="75%" numero="+" style='border-radius: 10px')
-                h5 Análisis de referencias: 
+                h5 Análisis de referencias
                 p Permite conocer los hábitos de información que utilizan los usuarios en sus labores diarias y en sus procesos de investigación. Este análisis permite identificar las necesidades de información del usuario, tipología de documentos, fuentes de información y vigencias.
 
               .tarjeta.color-puntoC.p-4(x="26%" y="75%" numero="+" style='border-radius: 10px;')
-                h5 Análisis de documentos:  
+                h5 Análisis de documentos
                 p Se realiza a partir de los documentos que se producen o publican en la organización. Este análisis se realiza sin consultar a los usuarios, permitiendo conocer sus hábitos, necesidades y uso de la información.
 
               .tarjeta.color-puntoC.p-4(x="41%" y="75%" numero="+" style='border-radius: 10px')
-                h5 Consenso: 
-                p Busca conseguir acuerdos entre un grupo de personas a cerca de aspectos controvertidos. Entre estos se encuentran la técnica Delphy que buscar obtener la opinión de expertos de forma sistemática, individual, organizada y anónima.
+                h5 Consenso
+                p Busca conseguir acuerdos entre un grupo de personas acerca de aspectos controvertidos. Entre estos se encuentran la técnica "Delphi" que buscar obtener la opinión de expertos de forma sistemática, individual, organizada y anónima.
                   
               .tarjeta.color-puntoC.p-4(x="57%" y="75%" numero="+" style='border-radius: 10px')
-                h5 Incidente crítico: 
+                h5 Incidente crítico
                 p La técnica consiste en: 
                 ol.lista-ol--cuadro
                   li 
@@ -166,26 +169,27 @@
                     | Realizar inferencias basadas en la información obtenida. (Un incidente es cualquier actividad observable lo suficientemente compleja como para realizar inferencias acerca de quien la realiza).
               
               .tarjeta.color-puntoC.p-4(x="75%" y="75%" numero="+" style='border-radius: 10px')
-                h5 Observación:
+                h5 Observación
                 p Esta técnica consiste en observar a la persona dentro del contexto en el que normalmente realiza sus actividades para entender los aspectos más significativos y para recopilar de esta los datos que se consideren pertinentes.
                   
               .tarjeta.color-puntoC.p-4(x="90%" y="75%" numero="+" style='border-radius: 10px')
-                h5 Cuestionarios: 
+                h5 Cuestionarios
                 p Conjunto de preguntas preparadas sobre aspectos de interés para el proyecto de ciencia de datos a realizar. Esta puede estar dirigida a toda la organización o a una muestra de esta.
 
-    #t_2_2.titulo-segundo.color-acento-contenido.mb-5  
-      h3 2.2 Técnicas de extracción de datos
+    separador  
+    h3 Técnicas de extracción de datos
 
 
     .row.justify-content-center.mb-5
       .col-md-7      
-        p.mb-4 El proceso de extracción de datos se basa en acceder a fuentes de distintos orígenes para luego normalizar los datos adquiridos y almacenarlos para su uso por otras herramientas. Dependiendo de los formatos y de las diferentes fuentes, se pueden usar herramientas que faciliten y automaticen la consolidación de la información. Así que es importante tener en cuenta que dichas fuentes suelen estar mal organizadas y, en muchos casos, desestructuradas.
-        p.mb-0 La extracción de datos se puede realizar de varias formas: manual, en la cual se requiere todo el tiempo de la intervención humana, automatizada y, por último, human in the loop, que es una combinación de las dos primeras. En la actualidad, y aprovechando los procesos de inteligencia artificial y las herramientas que se están diseñando, se busca que la extracción de datos sea automatizada, debido a algunas ventajas, como mejora de la precisión, reducción de costos, ahorro de tiempo y mejores tiempos de respuesta.
+        p.mb-4 El proceso de extracción de datos se basa en acceder a fuentes de distintos orígenes para luego normalizar los datos adquiridos y almacenarlos para su uso, por otras herramientas. Dependiendo de los formatos y de las diferentes fuentes, se pueden usar herramientas que facilitan y automatizan la consolidación de la información. Así que es importante tener en cuenta que dichas fuentes suelen estar mal organizadas y, en muchos casos, desestructuradas.
+
+        p.mb-0 La extracción de datos se puede realizar de las siguientes formas: #[b manual], en la cual se requiere todo el tiempo de la intervención humana, #[b automatizada] y, por último, #[i human in the loop], que es una combinación de las dos primeras. En la actualidad, y aprovechando los procesos de inteligencia artificial y las herramientas que se están diseñando, se busca que la extracción de datos sea automatizada, debido a algunas ventajas como mejora de la precisión, reducción de costos, ahorro de tiempo y mejores tiempos de respuesta.
       .col-md-5
         figure.mw-sm-350px
           img(src='@/assets/curso/temas/texto_destacado/img12.png', alt='imagen relacionada') 
 
-    p.mb-4 Uno de los procesos de extracción de datos es el que se hace de documentos físicos. Este se puede realizar siguiendo los pasos descritos a continuación:
+    p.mb-4 Uno de los procesos de extracción de datos es el que se hace a través de documentos físicos. Este se puede realizar siguiendo los pasos descritos a continuación:
 
     .tarjeta.tarjeta--secundario.p-4.mb-5
       SlyderA(tipo="b")
@@ -196,7 +200,7 @@
 
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tarjetas/placeholder6.svg', alt='imagen ilustrativa')
+              img(src='@/assets/curso/temas/tarjetas/placeholder6.svg', alt='imagen ilustrativa').p-1
         
         .row.justify-content-center.align-items-center.my-lg-4            
           .col-md-7.mb-4.mb-md-0
@@ -214,7 +218,7 @@
 
           .col-md-5
             figure
-              img(src='@/assets/curso/temas/tarjetas/placeholder8.svg', alt='imagen ilustrativa')
+              img(src='@/assets/curso/temas/tarjetas/placeholder8.svg', alt='imagen ilustrativa').p-1
         
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-7.mb-4.mb-md-0
@@ -227,7 +231,7 @@
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-7.mb-4.mb-md-0
-            h5 <i>Scraping</i> o <i>web scraping</i>
+            h5 #[i Scraping] o #[i web scraping]
             p También llamada <i>extracción de datos de la web</i>, consiste en desarrollar algoritmos o usar herramientas para recuperar documentos e información de una página web. El <i>scraping</i> hace uso del lenguaje de marcado (etiquetas <i>HTML</i>), con el cual están construidos los sitios <i>web</i> y expresiones regulares, para extraer de estos sitios solo la información requerida. Algunas de estas herramientas son: <i>Octoparse, Cyotek WebCopy y Scraper</i> (esta última funciona como una extensión del navegador Google Chrome).
 
           .col-md-5
@@ -250,21 +254,21 @@
     .row.justify-content-center.mb-5
       .col-md-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 2
-          p Interfaz herramienta YouTube Data Tools
+          h5 Figura 3
+          p #[i Interfaz herramienta YouTube Data Tools]
         
         figure
           img(data-aos="flip-left" src='@/assets/curso/temas/texto_destacado/img14.svg', alt='diagrama') 
 
 
-    #t_2_3.titulo-segundo.color-acento-contenido.mb-5  
-      h3 2.3 Minería de datos: conceptos y herramientas
+    separador
+    h3 Minería de datos: conceptos y herramientas
     
     .row.justify-content-center.mb-5
       .col-md-7      
         p.mb-4 La minería de datos es el proceso de búsqueda y análisis de información valiosa, que se utiliza en la toma de decisiones. Esta forma de obtener información se realiza en enormes cantidades de fuentes que manejan las organizaciones. La analogía con el concepto de minería se emplea por su similitud en la búsqueda de riquezas y materiales valiosos.
         .cajon.color-acento-botones.color-fondo-secundario.p-4
-          p.mb-0 Sumado a lo anterior, la minería de datos es un proceso que utiliza técnicas matemáticas, estadísticas y de aprendizaje de máquina para identificar y extraer información útil de enormes cantidades de datos que existen, para luego convertirla en conocimiento en forma de patrones, (Rebollo, 2017). Por ejemplo, se puede utilizar para procesar grandes cantidades de información de clientes e identificar sus hábitos de compra, y así poder definir nuevos productos y características o hacer mejoras en los productos que ya están en circulación.
+          p.mb-0 Sumado a lo anterior, la minería de datos es un proceso que utiliza técnicas matemáticas, estadísticas y de aprendizaje de máquina, para identificar y extraer información útil de enormes cantidades de datos que existen, para luego convertirla en conocimiento en forma de patrones (Rebollo, 2017). Por ejemplo, se puede utilizar para procesar grandes cantidades de información de clientes e identificar sus hábitos de compra y, de esta manera, poder definir nuevos productos y características o hacer mejoras en los productos que ya se encuentran en circulación.
 
       .col-md-5
         figure.mw-sm-350px
@@ -278,9 +282,9 @@
           img(src='@/assets/curso/temas/texto_destacado/img16.png', alt='imagen relacionada') 
       .col-md-7      
         p.mb-4 Este proceso se enfoca en realizar dos operaciones:
-        p #[i.fas.fa-angle-right.txt--orange] Predecir tendencias y comportamientos
-        p.mb-4 #[i.fas.fa-angle-right.txt--orange] Identificar patrones previamente desconocidos
-        p.mb-0 Un ejemplo de la aplicación de la minería de datos para la identificación de patrones es la detección de transacciones fraudulentas con tarjetas de crédito. Conforme se utiliza una tarjeta de crédito de manera normal y periódica, se identifican en estos usos patrones de hábitos de compra, lugares de uso y cantidades de dinero retiradas o gastadas en compras. Cuando esta tarjeta se roba o se pierde y se emplea de forma fraudulenta, su nuevo uso tendrá un patrón diferente al acostumbrado, lo cual generará alertas al cliente o bloqueos por seguridad.
+        p #[i.fas.fa-angle-right.txt--orange] Predecir tendencias y comportamientos.
+        p.mb-4 #[i.fas.fa-angle-right.txt--orange] Identificar patrones previamente desconocidos.
+        p.mb-0 Un ejemplo de la aplicación de la minería de datos para la identificación de patrones, es la detección de transacciones fraudulentas con tarjetas de crédito. Conforme se utiliza una tarjeta de crédito de manera normal y periódica, se identifican, en estos usos, patrones de hábitos de compra, lugares de uso y cantidades de dinero retiradas o gastadas en compras. Cuando esta tarjeta es robada o se pierde y se emplea de forma fraudulenta, su nuevo uso tendrá un patrón diferente al acostumbrado, lo cual generará alertas al cliente o bloqueos por seguridad.
     
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-12
@@ -292,7 +296,7 @@
             h5 Herramientas para la minería de datos
             br
             br   
-            p Existen diversas metodologías y marcos de trabajo para los proyectos de minería de datos. Uno de los modelos más utilizados y aceptados por investigadores, científicos de datos, desarrolladores y usuarios es CRISP-DM (Cross Industry Standard Process for Data Mining), que fue propuesto en los años noventa por un consorcio europeo de empresas. Esta metodología plantea un ciclo de vida compuesto por seis etapas secuenciales (se ejecuta una después de la otra), donde es común la retroalimentación y el retorno a fases previas según se avanza en el proceso.
+            p existen diversas metodologías y marcos de trabajo para los proyectos de minería de datos. Uno de los modelos más utilizados y aceptados por investigadores, científicos de datos, desarrolladores y usuarios es CRISP-DM (#[i Cross Industry Standard Process for Data Mining]), que fue propuesto en los años noventa por un consorcio europeo de empresas. Esta metodología plantea un ciclo de vida compuesto por seis etapas secuenciales (se ejecuta una después de la otra), donde es común la retroalimentación y el retorno a fases previas según se avanza en el proceso.
 
     p.mb-4 Como ya se mencionó, existen seis etapas secuenciales en el ciclo de vida del modelo CRISP-DM. Estas se ilustran a continuación, de la siguiente manera:
 

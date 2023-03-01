@@ -19,8 +19,8 @@
             br
             p.mb-4 En esta etapa se realizan actividades de validación, eliminación de duplicados, codificación, ajustes de formato y otras requeridas, que ayudan a identificar qué datos son útiles y cuáles son deficientes para iniciar el proceso. En el caso de los datos deficientes, es necesario decidir qué se hará con ellos, si se omiten o se ajustan de alguna manera para realizar el análisis de la información.
     
-    #t_3_1.titulo-segundo.color-acento-contenido.mb-5  
-      h3 3.1 Técnicas de limpieza y transformación de datos
+    separador 
+    h3 Técnicas de limpieza y transformación de datos
     
     .row.justify-content-center.mb-5
       .col-md-5
@@ -35,7 +35,7 @@
         p.mb-3 #[i.fas.fa-angle-right.txt--orange] Permite cumplir con normatividades vigentes, relacionadas con la privacidad y uso de los datos.
         p.mb-4 #[i.fas.fa-angle-right.txt--orange] Uso de datos de mejor calidad, que puede ayudar a mejorar los procesos internos de la organización.
 
-      p.mb-4 Las técnicas de limpieza de datos pueden variar según el tipo de información y de organización. Para realizar de este proceso, se describen algunos pasos básicos a continuación:
+      p.mb-4 Las técnicas de limpieza de datos pueden variar según el tipo de información y de organización. Para realizar este proceso, a continuación se describen algunos pasos básicos:
 
 
     .row.justify-content-center.mb-4
@@ -59,12 +59,15 @@
       .col-md-5
         img(src='@/assets/curso/temas/texto_destacado/img22.png', alt='imagen relacionada')  
 
+    .row 
+      p Recordemos que la limpieza y la transformación de datos no son lo mismo. La limpieza consiste en convertir los datos de un formato a otro, mientras que la transformación (también llamada #[i Wrangling] o #[i Munging]) convierte los datos brutos mediante un formato adecuado para su análisis; en el siguiente video, podrá observar aspectos más detallados sobre este interesante tema:
+
     figure.mt-4.mb-5
       .video
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jASywqOHrQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-    #t_3_1.titulo-segundo.color-acento-contenido.mb-5  
-      h3 3.2 Herramientas para transformación y limpieza de datos
+    separador
+    h3.mb-5 Herramientas para transformación y limpieza de datos
     
     .row.justify-content-center.mb-5
       .col-md-2
@@ -77,21 +80,21 @@
     .justify-content-center.mb-4
       .col-md-10.col-lg-12
         TabsA.color-acento-botones.mb-4
-          .tarjeta.color-acento-contenido-borde.p-4(titulo="<i>Python</i>")
+          .tarjeta.color-acento-contenido-borde.p-4(titulo="Python")
             .row
               .row.col-md-12.p-4.color-fondo
                 .col-md-3.col-xs-5
                   figure
                     img(src='@/assets/curso/temas/tarjetas/tarjeta1.svg', alt='imagen relacionada')
                 .col-md-9.col-xs-5
-                  p.mb-4 Este es uno de los lenguajes de programación más utilizados para proyectos de ciencias de datos. Se utilizan en la fase de limpieza y transformación de librerías, como NumPy, Pandas y Matplotlib, cada una con procedimientos y funciones de gran utilidad para manipular los conjuntos de datos. 
+                  p.mb-4 Este es uno de los lenguajes de programación más utilizados para proyectos de ciencias de datos. Se utilizan en la fase de limpieza y transformación de librerías, como NumPy, Pandas y Matplotlib, cada una con procedimientos y funciones de gran utilidad para manipular los conjuntos de datos. (https://www.python.org/)
                   a.anexo.mb-4.mb-lg-0(href="https://www.python.org/" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p Enlace web. https://www.python.org/    
 
-          .tarjeta.color-acento-contenido-borde.p-4(titulo="<i>NumPy</i>")
+          .tarjeta.color-acento-contenido-borde.p-4(titulo="NumPy")
             .row
               .row.col-md-12.p-4.color-fondo
                 .col-md-3.col-xs-5
@@ -107,9 +110,9 @@
                   figure
                     img(src='@/assets/curso/temas/tarjetas/tarjeta5.svg', alt='imagen relacionada')
                 .col-md-9.col-xs-5
-                  p.mb-4 Es una herramienta que se emplea para importar y gestionar los conjuntos de datos <i>(dataframes)</i>.
+                  p.mb-4 Es una herramienta que se emplea para importar y gestionar los conjuntos de datos (#[i dataframes]).
                  
-          .tarjeta.color-acento-contenido-borde.p-4(titulo="<i>Matplotlib</i>")
+          .tarjeta.color-acento-contenido-borde.p-4(titulo="Matplotlib")
             .row
               .row.col-md-12.p-4.color-fondo
                 .col-md-3.col-xs-5
@@ -126,21 +129,21 @@
                   figure
                     img(src='@/assets/curso/temas/tarjetas/tarjeta3.svg', alt='imagen relacionada')
                 .col-md-9.col-xs-5
-                  p.mb-4 Es un lenguaje de programación orientado especialmente a labores de análisis exploratorio de datos para tareas de ciencia de datos. El entorno de R proporciona un conjunto de librerías de gran utilidad para la manipulación de información, clasificación, generación de gráficos y técnicas estadísticas. Gracias a los paquetes de computación distribuida, R puede administrar grandes cantidades de datos en segundos y ejecutarse en diversos sistemas operativos.
+                  p.mb-4 Es un lenguaje de programación orientado especialmente a labores de análisis exploratorio de datos para tareas de ciencia de datos. El entorno de R proporciona un conjunto de librerías de gran utilidad para la manipulación de información, clasificación, generación de gráficos y técnicas estadísticas. Gracias a los paquetes de computación distribuida, R puede administrar grandes cantidades de datos en segundos y ejecutarse en diversos sistemas operativos. (https://www.r-project.org/)
                   a.anexo.mb-4.mb-lg-0(href="https://www.r-project.org/ " target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p Enlace web. https://www.r-project.org/  
 
-          .tarjeta.color-acento-contenido-borde.p-4(titulo="<i>OpenRefine</i>")
+          .tarjeta.color-acento-contenido-borde.p-4(titulo="OpenRefine")
             .row
               .row.col-md-12.p-4.color-fondo
                 .col-md-3.col-xs-5
                   figure
                     img(src='@/assets/curso/temas/tarjetas/tarjeta2.svg', alt='imagen relacionada')
                 .col-md-9.col-xs-5
-                  p.mb-4 Es una herramienta de código abierto para trabajar con datos desordenados. Realiza la manipulación de información mediante el uso de filtros y particiones en los conjuntos de datos a través del uso de expresiones regulares.
+                  p.mb-4 Es una herramienta de código abierto para trabajar con datos desordenados. Realiza la manipulación de información mediante el uso de filtros y particiones en los conjuntos de datos a través del uso de expresiones regulares. (https://openrefine.org/)
                   a.anexo.mb-4.mb-lg-0(href="https://openrefine.org/" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
@@ -154,30 +157,25 @@
         img(src='@/assets/curso/temas/texto_destacado/img24.png', alt='imagen relacionada')  
       .col-md-8
         AcordionA(tipo="a" clase-tarjeta="tarjeta color-secundario")
-          .row(titulo="<i style=color:black>Pentaho Data Integration</i>")
+          .row(titulo="Pentaho Data Integration ")
             .col-md-12.mb-4.mb-md-0
               .col-md-9.col-xs-5
-                  p(style="color:black").mb-4 Es el componente de la plataforma <i style="color:black" >Pentaho</i>, orientado a las tareas de <i style="color:black">ETL</i>. Entre otras funciones, comprende la migración de información entre aplicaciones o bases de datos, la exportación de información desde bases de datos o archivos planos, y herramientas de limpieza de datos (Hitachi, 2016). 
+                  p(style="color:black").mb-4 Es el componente de la plataforma Pentaho, orientado a las tareas de ETL. Entre otras funciones, comprende la migración de información entre aplicaciones o bases de datos, la exportación de información desde bases de datos o archivos planos, y herramientas de limpieza de datos (Hitachi, 2016). 
                   a.anexo.mb-4(style="width:700px" href="https://help.hitachivantara.com/Documentation/Pentaho/7.0/0D0/Pentaho_Data_Integration" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p(style="color:black") Enlace web. https://help.hitachivantara.com/Documentation/Pentaho/7.0/0D0/Pentaho_Data_Integration
           
-          .row(titulo="<i style=color:black>Microsoft SQL Server Integration Services (SSIS)</i>")
+          .row(titulo="Microsoft SQL Server Integration Services (SSIS)")
             .col-md-12.mb-4.mb-md-0
               .col-md-9.col-xs-5
-                p(style="color:black").mb-4 Esta herramienta de Microsoft proporciona sus propios servicios de integración de SQL Server para conectar con otros motores de bases de datos. Una de sus principales características es que permite una fácil migración a estructuras de datos, que ayuda a garantizar la consistencia de estos y disminuir los riesgos habituales de este tipo de operaciones (Microsoft, 2022). 
+                p(style="color:black").mb-4 Esta herramienta de Microsoft, proporciona sus propios servicios de integración de SQL Server para conectar con otros motores de bases de datos. Una de sus principales características es que permite una fácil migración a estructuras de datos, que ayuda a garantizar la consistencia de estos y disminuir los riesgos habituales de este tipo de operaciones. (Microsoft, 2022)
                 a.anexo.mb-4.mb-lg-0(href="https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver16" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
                     p(style="color:black") Enlace web. https://learn.microsoft.com/en-us/sql/integration-services/sql-server-integration-services?view=sql-server-ver16) 
-         
-
-
-
-
 
 </template>
 
