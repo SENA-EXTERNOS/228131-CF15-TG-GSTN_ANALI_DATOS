@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Procesos ETL (extracción, transformación y carga)',
     descripcionCurso:
-      'Los procesos de extracción, transformación y carga, se utilizan en los proyectos de ciencias de datos para extraer información de diversas fuentes, transformarla para adaptarla a los requerimientos del proyecto en desarrollo y cargarla en un espacio compartido, donde los stakeholders de la organización, puedan emplearla útilmente. Esto posibilita un mejor aprovechamiento de los datos disponibles.',
+      'Los procesos de extracción, transformación y carga, se utilizan en los proyectos de ciencias de datos para extraer información de diversas fuentes, transformarla para adaptarla a los requerimientos del proyecto en desarrollo y cargarla en un espacio compartido, donde los <em>stakeholders</em> de la organización, puedan emplearla útilmente. Esto posibilita un mejor aprovechamiento de los datos disponibles.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [

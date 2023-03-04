@@ -129,7 +129,7 @@
     .row.justify-content-center.mb-4
       .col-md-10.mb-4
         .cajon.color-acento-botones.color-fondo-secundario.p-4
-          p.mb-0 Para hacer el análisis de necesidades de información se emplean dos enfoques, uno directo y otro indirecto. En el directo, se utilizan técnicas para obtener de primera mano información del usuario. Algunas de estas técnicas son: entrevistas, cuestionarios, observación de hábitos de búsqueda y uso de información, técnica de incidente crítico y métodos de consenso (algunos de estos métodos utilizados son la técnica “Delphi” y los focus groups o grupos orientados). Por su parte, el enfoque indirecto consiste en el análisis de documentos, referencias y solicitudes de documentos, además de la observación y el registro de los hechos.
+          p.mb-0 Para hacer el análisis de necesidades de información se emplean dos enfoques, uno directo y otro indirecto. En el directo, se utilizan técnicas para obtener de primera mano información del usuario. Algunas de estas técnicas son: entrevistas, cuestionarios, observación de hábitos de búsqueda y uso de información, técnica de incidente crítico y métodos de consenso (algunos de estos métodos utilizados son la técnica “Delphi” y los #[i focus groups] o grupos orientados). Por su parte, el enfoque indirecto consiste en el análisis de documentos, referencias y solicitudes de documentos, además de la observación y el registro de los hechos.
 
     p.mb-4 La siguiente infografía presenta algunas de las técnicas utilizadas en el proceso de análisis de necesidades de información:
 
@@ -231,8 +231,8 @@
 
         .row.justify-content-center.align-items-center.my-lg-4
           .col-md-7.mb-4.mb-md-0
-            h5 #[i Scraping] o #[i web scraping]
-            p También llamada <i>extracción de datos de la web</i>, consiste en desarrollar algoritmos o usar herramientas para recuperar documentos e información de una página web. El <i>scraping</i> hace uso del lenguaje de marcado (etiquetas <i>HTML</i>), con el cual están construidos los sitios <i>web</i> y expresiones regulares, para extraer de estos sitios solo la información requerida. Algunas de estas herramientas son: <i>Octoparse, Cyotek WebCopy y Scraper</i> (esta última funciona como una extensión del navegador Google Chrome).
+            h5 #[i Scraping] o web #[i scraping]
+            p También llamada extracción de datos de la web, consiste en desarrollar algoritmos o usar herramientas para recuperar documentos e información de una página web. El #[i scraping] hace uso del lenguaje de marcado (etiquetas HTML), con el cual están construidos los sitios web y expresiones regulares, para extraer de estos sitios solo la información requerida. Algunas de estas herramientas son: Octoparse, Cyotek WebCopy y Scraper (esta última funciona como una extensión del navegador Google Chrome).
 
           .col-md-5
             figure
@@ -296,7 +296,7 @@
             h5 Herramientas para la minería de datos
             br
             br   
-            p existen diversas metodologías y marcos de trabajo para los proyectos de minería de datos. Uno de los modelos más utilizados y aceptados por investigadores, científicos de datos, desarrolladores y usuarios es CRISP-DM (#[i Cross Industry Standard Process for Data Mining]), que fue propuesto en los años noventa por un consorcio europeo de empresas. Esta metodología plantea un ciclo de vida compuesto por seis etapas secuenciales (se ejecuta una después de la otra), donde es común la retroalimentación y el retorno a fases previas según se avanza en el proceso.
+            p existen diversas metodologías y marcos de trabajo para los proyectos de minería de datos. Uno de los modelos más utilizados y aceptados por investigadores, científicos de datos, desarrolladores y usuarios es CRISP-DM (Cross Industry Standard Process for Data Mining), que fue propuesto en los años noventa por un consorcio europeo de empresas. Esta metodología plantea un ciclo de vida compuesto por seis etapas secuenciales (se ejecuta una después de la otra), donde es común la retroalimentación y el retorno a fases previas según se avanza en el proceso.
 
     p.mb-4 Como ya se mencionó, existen seis etapas secuenciales en el ciclo de vida del modelo CRISP-DM. Estas se ilustran a continuación, de la siguiente manera:
 

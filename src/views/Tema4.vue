@@ -14,7 +14,7 @@
       .col-md-7      
         p.mb-0 En esta última fase de los procesos #[i ETL], se cargan los datos recopilados y transformados en un formato ahora consistente y homogéneo. Estos datos se almacenan en un <i>data warehouse</i> (DW) o depósito de datos. Por lo general, el DW se encuentra separado de la base de datos de producción de la organización, lo que propende así a su uso y aprovechamiento sin afectar la labor diaria del negocio. El depósito de datos funciona como un repositorio central, con información que proviene de diversas fuentes de datos y de diferentes tipos (estructurados, semiestructurados y no estructurados). Una vez se encuentran en el depósito, los usuarios pueden acceder a estos mediante herramientas de inteligencia de negocios.
 
-    h3.mb-4 Data warehouse: conceptos y herramientas
+    h3.mb-4 #[i Data warehouse]: conceptos y herramientas
     
     .row.justify-content-center.mb-5
       .col-md-7      
