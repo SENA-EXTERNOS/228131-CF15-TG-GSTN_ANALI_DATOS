@@ -75,7 +75,7 @@
           img(src='@/assets/curso/temas/texto_destacado/img23.png', alt='imagen relacionada')
       .col-md-10
         p.mb-4 Al momento de realizar actividades de transformación y limpieza de datos, hay una gran variedad de herramientas para utilizar, algunas de código abierto y otras pagadas, que ayudarán a realizar este proceso de ciencias de datos, que, por lo general, ocupa gran parte del tiempo.
-        p.mb-0 A continuación, de describe algunas de estas herramientas:
+        p.mb-0 A continuación, se describe algunas de estas herramientas:
 
     .justify-content-center.mb-4
       .col-md-10.col-lg-12
