@@ -209,6 +209,8 @@ export default {
     {
       referencia:
         'Joyanes, L. (2019).<em> Inteligencia de negocios y analítica de datos. Una visión global de business intelligence & analytics</em>. Alfaomega.',
+      link:
+        'https://content.e-bookshelf.de/media/reading/L-14009583-08c47f7a6d.pdf',
     },
     {
       referencia:
@@ -223,7 +225,6 @@ export default {
     {
       referencia:
         'Muñoz, A. (2018). <em> OLAP. Resumen final.</em> Centro de Producción de Contenidos Digitales.',
-      link: 'https://repositorio.upct.es/handle/10317/7168 ',
     },
     {
       referencia:

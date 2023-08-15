@@ -108,7 +108,7 @@
 
     .row.justify-content-center.mb-5
       .col-md-7      
-        p.mb-4 En esta etapa, también existen flujos externos de información con actores del entorno de la organización que deben ser identificados y saber si son necesarios para el proyecto. Todos estos flujos tienen que analizarse para identificar en ellos la información requerida para el proceso de ciencia de datos que se ejecutará y, por consiguiente, definirán cuál es la fuente de datos más pertinente y adecuada. En esta etapa también se analiza el tipo de información que se está generando, quién la usa, cómo y para qué, y quiénes no deben tener acceso a esa información y porqué, con el fin de evitar compartir información delicada o confidencial con actores que no están autorizados.
+        p.mb-4 En esta etapa, también existen flujos externos de información con actores del entorno de la organización que deben ser identificados y saber si son necesarios para el proyecto. Todos estos flujos tienen que analizarse para identificar en ellos la información requerida para el proceso de ciencia de datos que se ejecutará y, por consiguiente, definirán cuál es la fuente de datos más pertinente y adecuada. En esta etapa también se analiza el tipo de información que se está generando, quién la usa, cómo y para qué, y quiénes no deben tener acceso a esa información y por qué, con el fin de evitar compartir información delicada o confidencial con actores que no están autorizados.
 
         p.mb-0 Para modelar el flujo de la información a través de la organización, se utilizan los diagramas de flujo, los cuales permiten representar el proceso y el orden en que se ejecutan las tareas. El organigrama, los manuales de procedimiento y las entrevistas a actores claves serán un insumo fundamental para la elaboración de estos modelos.
       .col-md-5
@@ -296,7 +296,7 @@
             h5 Herramientas para la minería de datos
             br
             br   
-            p existen diversas metodologías y marcos de trabajo para los proyectos de minería de datos. Uno de los modelos más utilizados y aceptados por investigadores, científicos de datos, desarrolladores y usuarios es CRISP-DM (Cross Industry Standard Process for Data Mining), que fue propuesto en los años noventa por un consorcio europeo de empresas. Esta metodología plantea un ciclo de vida compuesto por seis etapas secuenciales (se ejecuta una después de la otra), donde es común la retroalimentación y el retorno a fases previas según se avanza en el proceso.
+            p Existen diversas metodologías y marcos de trabajo para los proyectos de minería de datos. Uno de los modelos más utilizados y aceptados por investigadores, científicos de datos, desarrolladores y usuarios es CRISP-DM (Cross Industry Standard Process for Data Mining), que fue propuesto en los años noventa por un consorcio europeo de empresas. Esta metodología plantea un ciclo de vida compuesto por seis etapas secuenciales (se ejecuta una después de la otra), donde es común la retroalimentación y el retorno a fases previas según se avanza en el proceso.
 
     p.mb-4 Como ya se mencionó, existen seis etapas secuenciales en el ciclo de vida del modelo CRISP-DM. Estas se ilustran a continuación, de la siguiente manera:
 
