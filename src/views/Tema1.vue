@@ -20,7 +20,7 @@
           h5 Figura 1
           p #[i ETL]      
         figure
-          img(data-aos="flip-left" src='@/assets/curso/temas/texto_destacado/img3.svg', alt='diagrama')
+          img(data-aos="flip-left" src='@/assets/curso/temas/texto_destacado/img3-.svg', alt='diagrama')
         figcaption(style='background-color: #E4F8FB') 
           p.p-2 #[b Nota.] tomado y adaptado de https://learn.microsoft.com/es-es/azure/architecture/data-guide/images/etl.png  
 

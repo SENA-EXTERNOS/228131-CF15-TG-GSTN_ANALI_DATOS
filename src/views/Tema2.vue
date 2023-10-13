@@ -92,7 +92,7 @@
             .row.justify-content-center.mb-3
               .col-8
                 img(src="@/assets/curso/temas/tarjetas/placeholder5.svg", alt="imagen ilistrativa").img100.m-auto  
-            p.text-center.mb-0 De subordinado a superior o vertical descendente.
+            p.text-center.mb-0 De subordinado a superior o vertical ascendente.
 
           .tarjeta.tarjeta--slyder.p-4(style="border: 1px solid grey; height: 320px")
             .row.justify-content-center.mb-3
